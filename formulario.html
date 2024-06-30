@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Predicción</title>
+</head>
+<body>
+    <h2>Ingrese los datos para predecir:</h2>
+    <form action="/predict" method="post">
+        <label for="TeamStartingEquipmentValue">Team Starting Equipment Value:</label><br>
+        <input type="text" id="TeamStartingEquipmentValue" name="TeamStartingEquipmentValue"><br>
+        
+        <label for="RoundKills">Round Kills:</label><br>
+        <input type="text" id="RoundKills" name="RoundKills"><br>
+        
+        <label for="RoundStartingEquipmentValue">Round Starting Equipment Value:</label><br>
+        <input type="text" id="RoundStartingEquipmentValue" name="RoundStartingEquipmentValue"><br>
+        
+        <label for="RLethalGrenadesThrown">Lethal Grenades Thrown:</label><br>
+        <input type="text" id="RLethalGrenadesThrown" name="RLethalGrenadesThrown"><br>
+        
+        <label for="PrimaryAssaultRifle">Primary Assault Rifle:</label><br>
+        <input type="text" id="PrimaryAssaultRifle" name="PrimaryAssaultRifle"><br>
+        
+        <label for="PrimaryPistol">Primary Pistol:</label><br>
+        <input type="text" id="PrimaryPistol" name="PrimaryPistol"><br>
+        
+        <input type="submit" value="Predecir">
+    </form>
+</body>
+</html>
